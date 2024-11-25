@@ -41,21 +41,23 @@
       rel="stylesheet"
     />
   </head>
-  <body class="m-2 bg-neutral-100" style="font-family: 'Alata'">
+  <body class="p-2 h-screen bg-neutral-100" style="font-family: 'Alata'">
     {% if session %}
     <header>
       <div class="flex justify-center">
         <!--Header section-->
         <nav
           style="font-family: 'Alata', sans-serif"
-          class="text-center font-extrabold text-forth text-9xl p-4"
+          class="text-center font-extrabold text-forth p-4"
         >
-          <h1 style="font-family: 'Alata', sans-serif">LenndaBot</h1>
-          <p
+          <h1 style="font-family: 'Alata', sans-serif" class="text-9xl">
+            LenndaBot
+          </h1>
+          <div
             class="text-forth border border-forth px-4 m-4 hover:text-white hover:bg-forth"
           >
             <a href="/logout">LOG OUT</a>
-          </p>
+          </div>
         </nav>
       </div>
     </header>

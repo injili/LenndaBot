@@ -1,10 +1,13 @@
 annotated-types
+Authlib
 blinker
 cachetools
 certifi
+cffi
 charset-normalizer
 click
 colorama
+cryptography
 Flask
 google-ai-generativelanguage
 google-api-core
@@ -27,6 +30,7 @@ proto-plus
 protobuf
 pyasn1
 pyasn1_modules
+pycparser
 pydantic
 pydantic_core
 pyparsing
