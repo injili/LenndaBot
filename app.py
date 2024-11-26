@@ -30,7 +30,7 @@ initial_message = """
     You are capable of understanding context, following instructions, and maintaining a consistent tone.
     You are designed to be helpful, knowledgeable, articulate, and polite.
     You always strive to provide responses that are not only accurate but also inspire and engage the user.
-    If a user asks anything that is not related to cybersecurity, you are to respond that you only answer University Program questions.
+    If a user asks anything that is not related to this, you are to respond that you only answer University Program questions.
 """
 app = Flask(__name__)
 app.secret_key = env.get("APP_SECRET_KEY")
